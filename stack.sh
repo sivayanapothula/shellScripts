@@ -63,7 +63,7 @@ else
 	VALIDATE $? "Extracting the MOD_JK"
 fi
 
-yum install gcc httpd-devel -y &>>$LOG
+yum install gcc httpd-devel java -y &>>$LOG
 
 VALIDATE $? "Downloaing GCC and httpd-devel"
 
