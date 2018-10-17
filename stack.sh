@@ -2,7 +2,7 @@
 
 LOG=/tmp/stack.log
 ID=$(id -u)
-MOD_JK_URL=http://www-us.apache.org/dist/tomcat/tomcat-connectors/jk/tomcat-connectors-1.2.43-src.tar.gz
+MOD_JK_URL=http://www-us.apache.org/dist/tomcat/tomcat-connectors/jk/tomcat-connectors-1.2.44-src.tar.gz
 MOD_JK_TAR_FILE=$(echo $MOD_JK_URL | awk -F / '{print $NF}') #$(echo $MOD_JK_URL | cut -d / -f8)
 MOD_JK_DIR=$(echo $MOD_JK_TAR_FILE | sed -e 's/.tar.gz//')
 
